@@ -16,6 +16,8 @@ And you're ready to go!
 
 As soon as you save a Sass or CoffeeScript file, it will automatically compile, and be placed within the parent directory. Have fun.
 
+## Prefer TDD?
+
 There's also testing support. If you don't follow TDD, feel free to delete the `app/tests` directory. Otherwise, it's setup to work with [Testem](https://github.com/airportyh/testem) and Chai (and Should.js). If you've never used Testem before, it's a test runner that works with most popular JavaScript test frameworks, such as Jasmine and Mocha.
 
 To install Testem, run:
