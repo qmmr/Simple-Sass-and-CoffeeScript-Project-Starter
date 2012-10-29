@@ -6,7 +6,7 @@ module.exports = function(grunt) {
     sass: {
       dist: {
         files: {
-          'app/css/main.css': 'app/css/sass/main.sass'
+          'app/public/css/main.css': 'app/public/css/sass/main.sass'
         }
       },
       options: {
@@ -18,14 +18,14 @@ module.exports = function(grunt) {
     coffee: {
       compile: {
         files: {
-          'app/scripts/*.js': 'app/scripts/coffee/*.coffee'
+          'app/public/scripts/*.js': 'app/public/scripts/coffee/*.coffee'
         }
       }
     },
 
 
     watch: {
-      files: ['app/css/**/*', 'app/scripts/**/*'],
+      files: ['app/public/css/**/*', 'app/public/scripts/**/*'],
       tasks: 'sass coffee'
     }
   });
