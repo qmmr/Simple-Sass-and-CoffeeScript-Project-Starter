@@ -1,2 +1,2 @@
 # Just to get you started
-console.log 'Sweet!'
+console.log 'Sweet'
