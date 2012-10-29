@@ -1,4 +1,4 @@
-This is a super easy starter project, for the times when you simply need an easy way to automate the compiling of Sass and CoffeeScript files, without having to worry about the configuration and setup.
+This is a super easy starter project, for the times when you simply need an easy way to automate the compiling of Sass/Compass and CoffeeScript files, without having to worry about the configuration and setup.
 
 ## To Get Started...
 
