@@ -1,0 +1,6 @@
+{
+	"jam": {
+		"packageDir": "app/public/scripts/vendor",
+		"baseUrl": "app/public"
+	}
+}

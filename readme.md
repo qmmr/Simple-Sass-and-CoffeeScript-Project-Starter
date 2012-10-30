@@ -25,3 +25,19 @@ To install Testem, run:
 	npm install testem -g
 
 And then run `testem` to execute your tests. You can edit the configuration by opening `testem.json`. Bu default, it automatically looks for CoffeeScript files that follow the `app/tests/*Test.coffee' pattern.
+
+## Package Management
+
+If you're still manually browsing to jquery.com to download the jQuery library, you're doing it wrong. Instead, embrace a package management utility, like [Jam](http://jamjs.org) or Bower.
+
+This sample project offers a minimal config Jam file.
+
+To install Jam:
+
+	npm install -g jamjs
+
+Then, to install jQuery (or any other library, engine, or framework), run:
+
+	jam install jquery
+
+The library will then be downloaded and placed in `app/public/scripts/vendor/jquery/jquery.js`.
