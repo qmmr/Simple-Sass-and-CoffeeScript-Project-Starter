@@ -7,6 +7,7 @@
 		"app/tests/*Test.coffee"
 	],
 	"serve_files": [
+		"app/public/scripts/*.js", // Change as needed.
 		"app/tests/helpers/chai.js",
 		"app/tests/testConfig.js",
 		"app/tests/*Test.js"
